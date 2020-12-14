@@ -1,1 +1,0 @@
-This project is about automating UI using selenium, cucumber.
