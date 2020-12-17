@@ -1,0 +1,12 @@
+Feature: Automated end to end tests
+  Description: The purpose of this feature is to test end to end integration
+
+  Scenario: Customer place an order by purchasing an item from search
+    Given user is on home page
+    When he searches for "dress"
+    And choose to buy the first item
+    And moves to checkout from mini cart
+    And enter personal details on checkout page
+    And select same delivery address
+    And select payment method as "check" payment
+    And place the order
